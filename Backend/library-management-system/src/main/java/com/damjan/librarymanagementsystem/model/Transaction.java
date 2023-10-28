@@ -16,9 +16,8 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime checkoutDate;
+    private LocalDateTime checkIn;
     private LocalDateTime dueDate;
-    private LocalDateTime returnDate;
     private double lateFee;
 
     @ManyToOne
@@ -27,5 +26,8 @@ public class Transaction {
     @ManyToOne
     private Book book;
 
-    // Constructors, getters, setters, and other methods
+    @PrePersist
+    protected void onCheckIn() {
+        this.checkIn = LocalDateTime.now();
+    }
 }
