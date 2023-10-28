@@ -1,4 +1,4 @@
-package com.damjan.librarymanagementsystem.model;
+package com.damjan.librarymanagementsystem.enums;
 
 public enum Role {
     USER,
