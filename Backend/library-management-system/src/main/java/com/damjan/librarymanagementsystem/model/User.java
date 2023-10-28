@@ -1,5 +1,6 @@
 package com.damjan.librarymanagementsystem.model;
 
+import com.damjan.librarymanagementsystem.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 
