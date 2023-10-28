@@ -16,7 +16,9 @@ public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String first_name;
+    private String middle_name;
+    private String last_name;
 
     @ManyToMany(mappedBy = "authors")
     private Set<Book> books;
