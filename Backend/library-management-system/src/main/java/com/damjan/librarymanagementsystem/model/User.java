@@ -18,8 +18,8 @@ public class User {
     private Long id;
     private String username;
     private String password;
-    private String firstName;
-    private String lastName;
+    private String first_name;
+    private String last_name;
 
     @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
     @CollectionTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"))
