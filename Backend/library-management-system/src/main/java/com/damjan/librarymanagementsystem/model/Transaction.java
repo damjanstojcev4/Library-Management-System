@@ -1,5 +1,6 @@
 package com.damjan.librarymanagementsystem.model;
 
+import com.damjan.librarymanagementsystem.enums.TransactionStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -19,6 +20,8 @@ public class Transaction {
     private LocalDateTime checkIn;
     private LocalDateTime dueDate;
     private double lateFee;
+    @Enumerated(EnumType.STRING)
+    private TransactionStatus status;
 
     @ManyToOne
     private User user;
