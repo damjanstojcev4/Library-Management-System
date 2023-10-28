@@ -16,5 +16,26 @@
 
 .navbar a {
     text-decoration: none;
-    color: #fff; /* Link color */
+    color: white; /* Font color */
+    transition: color 0.3s; /* Add a smooth transition effect */
 }
+
+.navbar a:hover {
+    color: #E9C46A; /* Color when hovered */
+}
+
+header {
+    text-align: center; /* Center-align content within the header */
+}
+
+header a {
+    text-decoration: none; /* Remove underlines from the link */
+    color: #E76F51; /* Link color */
+    /* Additional styling for the link if desired */
+}
+
+header a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    /* Additional styling for the link on hover if desired */
+}
+
