@@ -6,8 +6,7 @@ The Library Management System (LMS) is equipped with a variety of features to pr
 ### User Authentication and Roles
 
 - **Admin:** Administrators have full control over the system. They can manage users, books, and other system settings.
-- **Librarian:** Librarians can handle book transactions, check out books to patrons, manage reservations, and assist in day-to-day library operations.
-- **Patron:** Patrons can search for books, make reservations, check out books, and access their account information.
+- **User:** Users can search for books, make reservations, check out books, and access their account information.
 
 ### Book Cataloging
 
