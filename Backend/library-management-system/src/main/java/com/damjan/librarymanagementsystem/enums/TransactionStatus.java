@@ -9,6 +9,7 @@ public enum TransactionStatus {
     CANCELLED("Cancelled"),
     LOST("Lost"),
     REQUESTED("Requested"),
+    ACTIVE("Active"),
     PROCESSING("Processing");
 
     private final String displayValue;
