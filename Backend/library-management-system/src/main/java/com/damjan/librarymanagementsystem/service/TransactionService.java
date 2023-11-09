@@ -22,7 +22,7 @@ public class TransactionService {
         this.transactionRepository = transactionRepository;
     }
 
-    public double calculateLateFees(Transaction transaction) {
+    public int calculateLateFees(Transaction transaction) {
         LocalDateTime checkIn = transaction.getCheckIn();
         LocalDateTime dueDate = transaction.getDueDate();
 
