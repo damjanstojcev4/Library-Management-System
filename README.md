@@ -1,4 +1,4 @@
-# Library Management System
+# Library Management System 1.0
 ## Features
 
 The Library Management System (LMS) is equipped with a variety of features to provide a comprehensive and efficient solution for libraries. Here's a breakdown of the key features:
@@ -17,19 +17,19 @@ The Library Management System (LMS) is equipped with a variety of features to pr
 ### Book Lending, Returning, and Reservation Systems
 
 - Track the availability of each book, whether it's checked out or available for lending.
-- Allow librarians to check out books to patrons, set due dates, and manage reservations.
+- Allow admins to check out books to users, set due dates, and manage reservations.
 - Implement logic to record return transactions and calculate late fees for overdue books.
-- Patrons can reserve books that are currently checked out, and a queue system manages reservations.
+- Users can reserve books that are currently checked out, and a queue system manages reservations.
 
 ### Fine Calculation for Late Returns
 
 - Automatically calculate fines for late book returns based on due dates.
-- Notify patrons of overdue books and manage fine payments.
+- Notify users of overdue books and manage fine payments.
 
 ### Reporting and Analytics
 
 - Generate reports on book usage, popular genres, overdue books, and more.
-- Implement analytics to help librarians make informed decisions about book acquisitions and inventory management.
+- Implement analytics to help admins make informed decisions about book acquisitions and inventory management.
 
 ### Notification System
 
@@ -46,4 +46,4 @@ The Library Management System (LMS) is equipped with a variety of features to pr
 - The project is built with maintainability and extensibility in mind.
 - Follows best coding practices and a modular structure to facilitate future enhancements.
 
-These features make the Library Management System a robust and user-friendly tool for library administrators, librarians, and patrons.
+These features make the Library Management System a robust and user-friendly tool for library administrators, librarians, and users.
